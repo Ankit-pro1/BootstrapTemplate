@@ -214,3 +214,33 @@ a:hover{
     background-color: #B53471;
     color: #000;
 }
+
+/* Media Query */
+@media screen and (max-width: 992px){
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .box{
+        margin-bottom: 30px;
+    }
+    .news-box{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .contact-box{
+        margin-bottom: 30px;
+    }
+    .footer-widget{
+        margin-bottom: 30px;
+    }
+    #logo,#menu{
+        text-align: center;
+    }
+    #menu li a{
+        padding: 10px 4px;
+    }
+    #banner-title{
+        padding-top: 1rem;
+    }
+}
